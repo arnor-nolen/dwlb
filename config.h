@@ -14,8 +14,10 @@ static bool status_commands = true;
 static bool center_title = false;
 // use title space as status text element
 static bool custom_title = false;
+// scale
+static uint32_t buffer_scale = 2;
 // font
-static char *fontstr = "Fira Code Nerd Font Mono:pixelsize=24:antialias=true:autohint=true";
+static char *fontstr = "Fira Code Nerd Font Mono:size=16:antialias=true:autohint=true";
 // tag names if ipc is disabled
 static char *tags_noipc[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
