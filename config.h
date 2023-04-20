@@ -28,5 +28,5 @@ static pixman_color_t active_fg_color = { .red = 0x2828, .green = 0x2828, .blue 
 static pixman_color_t active_bg_color = { .red = 0x8383, .green = 0xa5a5, .blue = 0x9898, .alpha = 0xffff, };
 static pixman_color_t inactive_fg_color = { .red = 0xebeb, .green = 0xdbdb, .blue = 0xb2b2, .alpha = 0xffff, };
 static pixman_color_t inactive_bg_color = { .red = 0x2828, .green = 0x2828, .blue = 0x2828, .alpha = 0xffff, };
-static pixman_color_t urgent_fg_color = { .red = 0x2222, .green = 0x2222, .blue = 0x2222, .alpha = 0xffff, };
-static pixman_color_t urgent_bg_color = { .red = 0xeeee, .green = 0xeeee, .blue = 0xeeee, .alpha = 0xffff, };
+static pixman_color_t urgent_fg_color = { .red = 0xebeb, .green = 0xdbdb, .blue = 0xb2b2, .alpha = 0xffff, };
+static pixman_color_t urgent_bg_color = { .red = 0x2828, .green = 0x2828, .blue = 0x2828, .alpha = 0xffff, };
